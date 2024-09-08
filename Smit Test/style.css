@@ -1,0 +1,347 @@
+.header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ulnav {
+    margin-top: 15px;
+    list-style: none;
+    font-size: 19px;
+}
+
+.linav {
+    padding-left: 25px;
+    display: inline;
+}
+
+.linavbtn {
+    margin-left: 20px;
+    display: inline;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 13px 20px;
+}
+
+.main1 {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rightone {
+    margin-top: 40px;
+    width: 385px;
+}
+
+.mainh2 {
+    font-size: 32px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+
+.pmain {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.company {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.ulcom {
+    list-style: none;
+}
+
+.cimg {
+    padding-right: 50px;
+    display: inline;
+}
+
+.services {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.servicesh3 {
+    margin: 0px;
+    background-color: greenyellow;
+    width: 120px;
+    height: 50px;
+    padding: 8px 8px 0px 9px;
+}
+
+.servicesp {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.serp {
+    font-size: 13px;
+    width: 950px;
+}
+
+.main2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: rgba(243, 243, 243, 0.618);
+}
+
+.box1h3 {
+    width: 230px;
+    font-size: 25px;
+    height: 100px;
+}
+
+.txtb1 {
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .main1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .rightone, .leftone {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .box1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .ulnav {
+        font-size: 17px;
+    }
+
+    .mainh2 {
+        font-size: 28px;
+    }
+
+    .pmain {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .main2 {
+        flex-direction: column;
+    }
+
+    .navul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .linav, .linavbtn {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .main1 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .rightone, .leftone {
+        width: 100%;
+        text-align: center;
+    }
+
+    .mainh2 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .pmain {
+        font-size: 16px;
+    }
+
+    .servicesh3 {
+        font-size: 18px;
+        width: 100px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .serp {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .box1 {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .box1h3 {
+        font-size: 22px;
+    }
+
+    .cimg {
+        padding-right: 20px;
+    }
+
+    .company {
+        display: flex;
+        justify-content: center;
+        max-width: 500px;
+    }
+    .linavbtn{
+        padding: 10px;
+    }
+}
+
+
+/* Responsive Styles for Mobile - Only for screens up to 600px */
+@media screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .ulnav {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .linav {
+        padding: 5px 0;
+        display: block;
+        text-align: center;
+    }
+
+    .linavbtn {
+        margin: 10px 0;
+        width: 90%;
+        padding: 12px;
+        display: block;
+        text-align: center;
+    }
+
+    .main1 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .rightone {
+        margin-top: 20px;
+        width: 95%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .mainh2 {
+        font-size: 22px;
+        text-align: center;
+        letter-spacing: 1.5px;
+    }
+
+    .pmain {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 15px;
+    }
+
+    .company {
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .cimg {
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .servicesh3 {
+        font-size: 18px;
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .servicesp {
+        margin-top: 7px;
+        text-align: center;
+    }
+
+    .serp {
+        font-size: 13px;
+        width: 100%;
+        margin: 0 10px;
+        text-align: justify;
+    }
+
+    .main2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .box1 {
+        width: 90%;
+        margin: 10px 0;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .box1h3 {
+        font-size: 20px;
+        height: auto;
+        text-align: center;
+    }
+
+    .txtb1 {
+        font-size: 18px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
